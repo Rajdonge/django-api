@@ -7,5 +7,5 @@ urlpatterns = [
     path('cv/', CVView.as_view(), name='get-cv'),
     path('social-media/', SocialMediaView.as_view(), name='social-media'),
     path('projects/', ProjectView.as_view(), name='projects-list'),
-    path('enquiry/', EnquiryView.as_view(), name='enquiry'),
+    path('enquiry/', EnquiryView.as_view(), name='enquiry-list'),
 ]
